@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App has-background-info-light">
       <Navbar></Navbar>
-      <section className="hero">
+      <section className="hero is-medium">
         <div className="hero-body">
           <div className="container">
             <h1 className="title">
