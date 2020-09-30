@@ -15,7 +15,8 @@ function App() {
               Full-stack Developer
             </h1>
             <h2 className="subtitle">
-            Hello and welcome! I'm glad you took an interest in my portfolio but this site isn't ready yet. Please contact me at kesihainselvarajoo.com or revisit this site in the near future
+              Highly motivated and self driven individual who has the ability to work with other individuals to think critically in high pressure situations and form unique yet simple solutions.
+              I have the ability to think analytically and apply logic. As a result I take pride and pleasure in piecing quality, readable code
             </h2>
           </div>
         </div>
