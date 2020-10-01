@@ -42,7 +42,7 @@ function App() {
         <h2 className="title">Skills</h2>
         <div className= "columns is-4 is-variable is-multiline">
           {skills_data.map((item)=>(
-            <div className="column is-2" id={item.name}>
+            <div className="column is-2" key={item.name}>
               <div className= "card">
                 <div className="card-header">
                   <header className="card-header-title is-centered">
