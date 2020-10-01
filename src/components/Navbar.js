@@ -1,7 +1,7 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar(){
     return (
@@ -17,7 +17,7 @@ function Navbar(){
                 </p>
             </div>
             <div className="level-right">
-                {/* <div class="dropdown is-active">
+                {/* <div class="dropdown is-hoverable">
                     <div class="dropdown-trigger">
                         <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
                         <span>Contact me</span>
@@ -28,8 +28,8 @@ function Navbar(){
                     </div>
                     <div class="dropdown-menu" id="dropdown-menu" role="menu">
                         <div class="dropdown-content">
-                        <a href="#" class="dropdown-item">
-                            Send Email
+                        <a href="mailto:kesihainselvarajoo@gmail.com" class="dropdown-item">
+                            Email me
                         </a>
                         <a class="dropdown-item">
                             Drop Message
@@ -37,7 +37,7 @@ function Navbar(){
                         </div>
                     </div>
                 </div> */}
-                <a className="navbar-item has-text-info-light" href="mailto:kesihainselvarajoo">Email me</a>
+                <a className="navbar-item has-text-info-light" href="mailto:kesihainselvarajoo@gmail.com">Email me</a>
                 <a className="navbar-item has-text-info-light" href={process.env.PUBLIC_URL+'/Software_Developer_Kesihain_resume.pdf'} download>Download Resume</a>
             </div>
         </nav>
