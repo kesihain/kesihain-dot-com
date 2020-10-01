@@ -60,8 +60,8 @@ function App() {
       <footer className="footer has-background-dark mt-6">
         <div className="columns is-centered">
           <div className="column is-5"></div>
-          <a className="column" href="https://www.linkedin.com/in/kesihain-selvarajoo-47a189143/"><img src="https://cdn2.iconfinder.com/data/icons/on-point-social-media/141/LinkedIn-512.png" width="50" height="50"/></a>
-          <a className="column" href="https://github.com/kesihain"><img src={process.env.PUBLIC_URL+'/github.png'} width="50" height="50"/></a>
+          <a className="column" href="https://www.linkedin.com/in/kesihain-selvarajoo-47a189143/"><img src="https://cdn2.iconfinder.com/data/icons/on-point-social-media/141/LinkedIn-512.png" alt="LinkedIn" width="50" height="50"/></a>
+          <a className="column" href="https://github.com/kesihain"><img src={process.env.PUBLIC_URL+'/github.png'} alt="Github" width="50" height="50"/></a>
           <div className="column is-5"></div>
         </div>
       </footer>
