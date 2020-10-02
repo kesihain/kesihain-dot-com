@@ -27,26 +27,53 @@ function App() {
   return (
     <div className="App" style={body}>
       <Navbar></Navbar>
-      <section className="hero is-medium">
+      <section className="jumbotron">
         <div className="hero-body">
-          <div className="container">
-            <h1 className="title mb-6 pb-2">
+          <div className=" box py-6 container">
+            <h1 className="title is-1 my-6 pb-2">
               FULL-STACK DEVELOPER
             </h1>
-            <h2 className="subtitle">
+            <h2 className="subtitle has-text-justified mx-6 mb-6">
               Highly motivated and self driven individual with the ability to work with other individuals to think critically in high pressure situations and form unique yet simple solutions.
-            </h2>
-            <h2 className="subtitle">
               I have the ability to think analytically and apply logic. As a result I take pride and pleasure in piecing quality, readable code.
             </h2>
           </div>
         </div>
       </section>
-      <section className="container px-6">
+      <section className="box container my-6 py-6">
+        <h2 className="title mb-6">Portfolio Projects</h2>
+        <div className="container columns">
+          {/* <div className="column is-2"></div> */}
+          <div className="card mx-6 py-4 column is-flex">
+            <div className="is-pulled-left p-5">
+              <h5 className="title is-4">Memori</h5>
+              <iframe title="Memori Video" className="pl-0 ml-0" width="560" height="315" src="https://www.youtube.com/embed/QpS9Y9f1dbA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
+            <div className="border-left is-pulled-right p-5">
+              <h6 className="title is-5 mb-1">Description</h6>
+              <p className="">Mobile app which allows users to save locations of choice with reminders.The app then sends push notifications to user reminding them of items or tasks they have set when entering or leaving the set locations</p>
+              <h6 className="title is-5 mt-4 mb-3">Technologies used</h6>
+              <p className="is-size-6">1. React-Native</p>
+              <p className="is-size-6">2. Expo</p>
+              <p className="is-size-6">3. Flask</p>
+              <div className="mt-2">
+                <a className=" is-size-4" href="https://github.com/kesihain/memori-front-end">Front-end github repo</a>
+              </div>
+                <a className=" is-size-4" href="https://github.com/kesihain/memori-back-end">Back-end github repo</a>
+            </div>
+          </div>
+        </div>
+        {/* <div className="mx-6 columns my-4">
+          <div className="card column is-4">
+            <h5 className="title is-4">Flask Nextagram</h5>
+          </div>
+        </div> */}
+      </section>
+      <section className=" box my-6 container px-6">
         <h2 className="title">Skills</h2>
-        <div className= "columns is-4 is-variable is-multiline">
+        <div className= "columns is-4 py-4 is-variable is-multiline">
           {skills_data.map((item)=>(
-            <div className="column is-2" key={item.name}>
+            <div className="column is-3" key={item.name}>
               <div className= "card">
                 <div className="card-header">
                   <header className="card-header-title is-centered">

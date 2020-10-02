@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+.border-left{
+  border-left: 2px groove whitesmoke;
+}
