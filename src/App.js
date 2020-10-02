@@ -19,9 +19,13 @@ let skills_data=[
   {name:"Git",img_url:"https://cdn.worldvectorlogo.com/logos/git-icon.svg"}
 ]
 
+const body={
+  backgroundColor:"#f2f2f2"
+}
+
 function App() {
   return (
-    <div className="App has-background-info-light">
+    <div className="App" style={body}>
       <Navbar></Navbar>
       <section className="hero is-medium">
         <div className="hero-body">
@@ -30,7 +34,7 @@ function App() {
               FULL-STACK DEVELOPER
             </h1>
             <h2 className="subtitle">
-              Highly motivated and self driven individual who has the ability to work with other individuals to think critically in high pressure situations and form unique yet simple solutions.
+              Highly motivated and self driven individual with the ability to work with other individuals to think critically in high pressure situations and form unique yet simple solutions.
             </h2>
             <h2 className="subtitle">
               I have the ability to think analytically and apply logic. As a result I take pride and pleasure in piecing quality, readable code.
