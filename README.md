@@ -1,6 +1,18 @@
 # kesihain-dot-com
 This is a simple portfolio web app that has been deployed at www.kesihain.com
 
+## Features
+- User can view portfolio and skills
+- User can download resume
+- User can contact me through 1 of four methods
+        1. Directly email me
+        2. Drop a message (3rd party service used to notify me)
+        3. Click on link to LinkedIn
+        4. Click on Github link
+
+## Technologies
+- React
+- Bulma
 ## Available Scripts
 
 In the project directory, you can run:

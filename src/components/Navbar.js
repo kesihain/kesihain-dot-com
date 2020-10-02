@@ -1,7 +1,7 @@
 import React from 'react';
 // import {Link} from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar(){
     return (
@@ -17,27 +17,29 @@ function Navbar(){
                 </p>
             </div>
             <div className="level-right">
-                {/* <div class="dropdown is-hoverable">
-                    <div class="dropdown-trigger">
-                        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <div className="dropdown is-hoverable">
+                    <div className="dropdown-trigger">
+                        <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
                         <span>Contact me</span>
-                        <span class="icon is-small">
+                        <span className="icon is-small">
                             <FontAwesomeIcon icon={faAngleDown} />
                         </span>
                         </button>
                     </div>
-                    <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                        <div class="dropdown-content">
-                        <a href="mailto:kesihainselvarajoo@gmail.com" class="dropdown-item">
-                            Email me
-                        </a>
-                        <a class="dropdown-item">
-                            Drop Message
-                        </a>
+                    <div className="dropdown-menu has-background-dark" id="dropdown-menu" role="menu">
+                        <div className="dropdown-content">
+                            <a href="mailto:kesihainselvarajoo@gmail.com" className="dropdown-item mt-0 mb-1 px-2 box has-background-grey-light">
+                                Email me
+                            </a>
+                            {/* <a className="dropdown-item my-1 px-2 box has-background-grey-light">
+                                Drop Message
+                            </a> */}
+                            <a className="column my-1 box has-background-grey-light" href="https://www.linkedin.com/in/kesihain-selvarajoo-47a189143/"><img className="my-0" src="https://cdn2.iconfinder.com/data/icons/on-point-social-media/141/LinkedIn-512.png" alt="LinkedIn" width="30" height="30"/></a>
+                            <a className="column mt-1 mb-0 box has-background-grey-light" href="https://github.com/kesihain"><img className="my-0" src={process.env.PUBLIC_URL+'/githubblack.png'} alt="Github" width="30" height="30"/></a>
                         </div>
                     </div>
-                </div> */}
-                <a className="navbar-item has-text-info-light" href="mailto:kesihainselvarajoo@gmail.com">Email me</a>
+                </div>
+                {/* <a className="navbar-item has-text-info-light" href="mailto:kesihainselvarajoo@gmail.com">Email me</a> */}
                 <a className="navbar-item has-text-info-light" href={process.env.PUBLIC_URL+'/Software_Developer_Kesihain_resume.pdf'} download>Download Resume</a>
             </div>
         </nav>
