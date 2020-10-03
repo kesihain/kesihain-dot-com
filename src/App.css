@@ -36,6 +36,16 @@
     transform: rotate(360deg);
   }
 }
-.border-left{
-  border-left: 2px groove whitesmoke;
+
+
+@media (min-width:769px){
+  .memori-vid{
+    width: 60%;
+  }
+  .memori-des{
+    width:40%;
+  }
+  .memori-border-left{
+    border-left: 2px groove whitesmoke;
+  }
 }

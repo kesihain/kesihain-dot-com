@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import {Switch} from 'react-router-dom';
+import ResponsiveEmbed from 'react-responsive-embed'
 
 let skills_data=[
   {name:"HTML",img_url:process.env.PUBLIC_URL+'/html-logo.png'},
@@ -44,22 +45,23 @@ function App() {
         <h2 className="title mb-6">Portfolio Projects</h2>
         <div className="container columns">
           {/* <div className="column is-2"></div> */}
-          <div className="card mx-6 py-4 column is-flex">
-            <div className="is-pulled-left p-5">
+          <div className="card mx-6 py-4 column is-flex-tablet">
+            <div className="memori-vid p-5">
               <h5 className="title is-4">Memori</h5>
-              <iframe title="Memori Video" className="pl-0 ml-0" width="560" height="315" src="https://www.youtube.com/embed/QpS9Y9f1dbA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {/* <iframe title="Memori Video" className="pl-0 ml-0" width="560" height="315" src="https://www.youtube.com/embed/QpS9Y9f1dbA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+              <ResponsiveEmbed src="https://www.youtube.com/embed/QpS9Y9f1dbA" allowFullScreen/>
             </div>
-            <div className="border-left is-pulled-right p-5">
+            <div className="memori-des memori-border-left p-5">
               <h6 className="title is-5 mb-1">Description</h6>
-              <p className="">Mobile app which allows users to save locations of choice with reminders.The app then sends push notifications to user reminding them of items or tasks they have set when entering or leaving the set locations</p>
+              <p className="is-size-7">Mobile app which allows users to save locations of choice with reminders.The app then sends push notifications to user reminding them of items or tasks they have set when entering or leaving the set locations</p>
               <h6 className="title is-5 mt-4 mb-3">Technologies used</h6>
-              <p className="is-size-6">1. React-Native</p>
-              <p className="is-size-6">2. Expo</p>
-              <p className="is-size-6">3. Flask</p>
+              <p className="is-size-7">1. React-Native</p>
+              <p className="is-size-7">2. Expo</p>
+              <p className="is-size-7">3. Flask</p>
               <div className="mt-2">
-                <a className=" is-size-4" href="https://github.com/kesihain/memori-front-end">Front-end github repo</a>
+                <a className=" is-size-6" href="https://github.com/kesihain/memori-front-end">Front-end github repo</a>
               </div>
-                <a className=" is-size-4" href="https://github.com/kesihain/memori-back-end">Back-end github repo</a>
+                <a className=" is-size-6" href="https://github.com/kesihain/memori-back-end">Back-end github repo</a>
             </div>
           </div>
         </div>
