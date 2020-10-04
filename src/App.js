@@ -48,12 +48,11 @@ function App() {
           <div className="card mx-6 py-4 column is-flex-tablet">
             <div className="memori-vid p-5">
               <h5 className="title is-4">Memori</h5>
-              {/* <iframe title="Memori Video" className="pl-0 ml-0" width="560" height="315" src="https://www.youtube.com/embed/QpS9Y9f1dbA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
               <ResponsiveEmbed src="https://www.youtube.com/embed/QpS9Y9f1dbA" allowFullScreen/>
             </div>
             <div className="memori-des memori-border-left p-5">
               <h6 className="title is-5 mb-1">Description</h6>
-              <p className="is-size-7">Mobile app which allows users to save locations of choice with reminders.The app then sends push notifications to user reminding them of items or tasks they have set when entering or leaving the set locations</p>
+              <p className="is-size-7">Mobile app which allows users to save locations of choice with reminders. The app then sends push notifications to user reminding them of items or tasks they have set when entering or leaving the set locations</p>
               <h6 className="title is-5 mt-4 mb-3">Technologies used</h6>
               <p className="is-size-7">1. React-Native</p>
               <p className="is-size-7">2. Expo</p>
@@ -65,11 +64,39 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <div className="mx-6 columns my-4">
-          <div className="card column is-4">
-            <h5 className="title is-4">Flask Nextagram</h5>
+        <div className="columns is-0 is-variable  my-4">
+          <div className= "column"></div>
+          <div className="column is-full-tablet is-two-fifths-desktop is-two-fifths-widescreen is-two-fifths-fullhd project-card-mobile">
+            <div className="card p-4">
+              <h5 className="title is-4">Flask Nextagram</h5>
+              <img src={process.env.PUBLIC_URL+'/flask-nextagram.png'}/>
+              <p className="is-size-7 my-3">This app as a flask dependant server side instagram clone with the use of Jinja2. The app also implements restful api end-points to allow for integration with front end apps. Users can post pictures,view other users profiles and donate to pictures</p>
+              <h6 className="title is-5">Technologies</h6>
+              <p className="is-size-7">1. Flask</p>
+              <p className="is-size-7">2. Bootstrap</p>
+              <p className="is-size-7">3. PostgreSQL</p>
+              <div className="mt-2">
+                <a className=" is-size-6" href="https://github.com/kesihain/Flask-Nextagram">Github Repo</a>
+              </div>
+            </div>
           </div>
-        </div> */}
+          <div className="column"></div>
+          <div className="column is-full-tablet is-two-fifths-desktop is-two-fifths-widescreen is-two-fifths-fullhd my-3 project-card-mobile">
+            <div className="card p-4">
+              <h5 className="title is-4">React Nextagram</h5>
+              <img src={process.env.PUBLIC_URL+'/react-nextagram.png'}/>
+              <p className="is-size-7 my-3">This react app is an instagram clone where users can post pictures, follow other users and like and post comments on pictures. It implements the use of react router dom for navigation between pages and axios to make requests to api end-points</p>
+              <h6 className="title is-5">Technologies</h6>
+              <p className="is-size-7">1. React</p>
+              <p className="is-size-7">2. Bootstrap</p>
+              <p className="is-size-7">3. Reactstrap</p>
+              <div className="mt-2">
+                <a className=" is-size-6" href="https://github.com/kesihain/react-nextagram">Github Repo</a>
+              </div>
+            </div>
+          </div>
+          <div className="column"></div>
+        </div>
       </section>
       <section className=" box my-6 container px-6">
         <h2 className="title">Skills</h2>

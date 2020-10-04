@@ -49,3 +49,8 @@
     border-left: 2px groove whitesmoke;
   }
 }
+@media(max-width:425px){
+  .project-card-mobile{
+    width:100%;
+  }
+}
