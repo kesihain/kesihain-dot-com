@@ -31,6 +31,7 @@ function App() {
       <section className="jumbotron">
         <div className="hero-body">
           <div className=" box py-6 container">
+            <img style={{borderRadius:"50%",width:"30%"}} alt="display-picture" src={process.env.PUBLIC_URL+'/display-pic.jpeg'}/>
             <h1 className="title is-1 my-6 pb-2">
               FULL-STACK DEVELOPER
             </h1>
