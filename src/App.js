@@ -69,7 +69,7 @@ function App() {
           <div className="column is-full-tablet is-two-fifths-desktop is-two-fifths-widescreen is-two-fifths-fullhd project-card-mobile">
             <div className="card p-4">
               <h5 className="title is-4">Flask Nextagram</h5>
-              <img src={process.env.PUBLIC_URL+'/flask-nextagram.png'}/>
+              <img alt="flask-nextagram" src={process.env.PUBLIC_URL+'/flask-nextagram.png'}/>
               <p className="is-size-7 my-3">This app as a flask dependant server side instagram clone with the use of Jinja2. The app also implements restful api end-points to allow for integration with front end apps. Users can post pictures,view other users profiles and donate to pictures</p>
               <h6 className="title is-5">Technologies</h6>
               <p className="is-size-7">1. Flask</p>
@@ -84,7 +84,7 @@ function App() {
           <div className="column is-full-tablet is-two-fifths-desktop is-two-fifths-widescreen is-two-fifths-fullhd my-3 project-card-mobile">
             <div className="card p-4">
               <h5 className="title is-4">React Nextagram</h5>
-              <img src={process.env.PUBLIC_URL+'/react-nextagram.png'}/>
+              <img alt="react-nextagram" src={process.env.PUBLIC_URL+'/react-nextagram.png'}/>
               <p className="is-size-7 my-3">This react app is an instagram clone where users can post pictures, follow other users and like and post comments on pictures. It implements the use of react router dom for navigation between pages and axios to make requests to api end-points</p>
               <h6 className="title is-5">Technologies</h6>
               <p className="is-size-7">1. React</p>
