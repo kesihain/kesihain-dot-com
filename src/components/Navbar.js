@@ -10,11 +10,11 @@ function Navbar(){
                 <a className="navbar-item has-text-info-light" href="https://www.kesihain.com">
                     <img src={process.env.PUBLIC_URL+'/logo.png'} width="130px" alt="Kesihain"></img>
                 </a>
-                <p href="#" role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                {/* <p href="#" role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
-                </p>
+                </p> */}
             </div>
             <div className="level-right">
                 <div className="dropdown is-hoverable">
