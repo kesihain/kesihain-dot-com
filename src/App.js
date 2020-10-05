@@ -32,10 +32,10 @@ function App() {
         <div className="hero-body">
           <div className=" box py-6 container">
             <img style={{borderRadius:"50%",width:"30%"}} alt="display-pic" src={process.env.PUBLIC_URL+'/display-pic.jpeg'}/>
-            <h1 className="title is-1 my-6 pb-2">
+            <h1 className="title is-1 is-size-4-mobile my-6 pb-2 job-title">
               FULL-STACK DEVELOPER
             </h1>
-            <h2 className="subtitle has-text-justified mx-6 mb-6">
+            <h2 className="subtitle is-size-7-mobile has-text-justified mx-6 mb-6 personal-des ">
               Highly motivated and self driven individual with the ability to work with other individuals to think critically in high pressure situations and form unique yet simple solutions.
               I have the ability to think analytically and apply logic. As a result I take pride and pleasure in piecing quality, readable code.
             </h2>
