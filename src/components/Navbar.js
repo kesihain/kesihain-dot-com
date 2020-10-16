@@ -40,7 +40,7 @@ function Navbar(){
                     </div>
                 </div>
                 {/* <a className="navbar-item has-text-info-light" href="mailto:kesihainselvarajoo@gmail.com">Email me</a> */}
-                <a className="navbar-item has-text-info-light" href={process.env.PUBLIC_URL+'/Software_Developer_Kesihain_resume.pdf'} download>Download Resume</a>
+                <a className="navbar-item has-text-info-light" href={process.env.PUBLIC_URL+'/Full_Stack_Developer_Kesihain_resume.pdf'} download>Download Resume</a>
             </div>
         </nav>
     )
